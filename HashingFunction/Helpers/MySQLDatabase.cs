@@ -5,7 +5,7 @@ namespace HashingFunction
 {
     public class MySQLDatabase
     {
-        private const string connectionString = "server=localhost;database=logins;uid=root;pwd=windows8pro;";
+        private const string connectionString = "";
         private readonly MySqlConnection connection;
         
         private MySqlCommand insertUserCommand;
